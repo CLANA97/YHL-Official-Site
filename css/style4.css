@@ -59,11 +59,22 @@ body {
   font-weight: bold;
   color: white;
   box-shadow: 1px 1px 10px 5px white;
+
+
 }
 input, .nome{
   background-color: black;
   color: white;
+  text-align: center;
+  display: flex;
+
+
+
 }
+.NOME, .COGN, .EMA, .CELL, .DATA {
+  width: 250px
+}
+
 select, .paese{
   background-color: black;
   color: white;
@@ -79,19 +90,29 @@ textarea {
   font-size: 20px;
   font-style: italic;
   font-family: serif;
+  height: 200px;
+  width: 250px
 }
-input, .reset ,.submit{
+input, .reset , .submit{
   color: white;
   box-shadow: 1px 1px 10px 1px white;
   font-style: italic;
   border-radius: 5px;
 }
 .menu1, .menu2, .menu3, .menu4 {
- font-size: 15px;
+ font-size: 20px;
  color: white;
  letter-spacing: 5px;
  background-color: rgba(0, 0, 0, 0.8);
  box-shadow: 1px 1px 10px 2px orange;
  border-radius: 10px;
- margin-right: 20px;
+ text-align: center;
+}
+.M, .F,{
+  display: inline-block;
+}
+.r, .s {
+  display: inline-block;
+  letter-spacing: 4px;
+  margin-right: 20px;
 }

@@ -1,10 +1,10 @@
 body {
   background-image: url(../jpg/orig.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  
+
   background-color: black;
   margin: 0 auto;
-  display: block;
+
   overflow: hidden;
 }
 .foto img {
