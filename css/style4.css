@@ -1,0 +1,96 @@
+body {
+  background-image: url(../jpg/final3.jpg);
+  background-position:  center;
+  background-size: cover;
+  text-align: center;
+
+}
+.logo  {
+  font-size:150px;
+  color: black;
+  margin: 0 auto;
+  letter-spacing: 4px;
+  text-shadow: 1px 1px 15px orange;
+  border-radius: 50px;
+  text-shadow: 0 0 1px 1px orange;
+  text-align: center;
+  animation: lighting 2s infinite;
+}
+
+@keyframes lighting {
+  0% {
+    text-shadow: 0 0 1px 2px orange;
+    filter: brightness(1);
+  }
+  50%{
+    text-shadow: 0 0 50px 15px white;
+  filter: brightness(1.5);
+}
+100% {
+  text-shadow: 0 0 1px 2px orange;
+  filter:brightness(1);
+}
+}
+.invito {
+  font-size: 30px;
+  font-weight: bolder;
+  box-shadow: 1px 1px 10px 5px white;
+  display: inline-block;
+  border-radius: 5px;
+  text-shadow: 1px 1px 10px orange;
+  color: black;
+}
+.invito2 {
+  color: black;
+  font-size: 25px;
+  font-weight: bolder;
+  display: inline-block;
+  border-radius: 5px;
+  text-shadow: 1px 1px 10px white;
+}
+.form {
+  font-style: italic;
+  font-size: 20px;
+  text-shadow: 1px 1px 5px orange;
+  background-color: rgba(0, 0, 0, 0.8);
+  letter-spacing: 4px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 1px 1px 10px 5px white;
+}
+input, .nome{
+  background-color: black;
+  color: white;
+}
+select, .paese{
+  background-color: black;
+  color: white;
+}
+textarea {
+
+  box-shadow: 1px 1px 10px 3px orange;
+  color: white;
+  background-color: black;
+  background-position: bottom;
+  background-size: cover;
+  text-shadow: 1px 1px 5px orange;
+  font-size: 20px;
+  font-style: italic;
+  font-family: serif;
+}
+input, .reset ,.submit{
+  color: white;
+  box-shadow: 1px 1px 10px 1px white;
+  font-style: italic;
+  border-radius: 5px;
+}
+.menu1, .menu2, .menu3, .menu4 {
+ font-size: 15px;
+ color: white;
+ letter-spacing: 5px;
+ background-color: rgba(0, 0, 0, 0.8);
+ box-shadow: 1px 1px 10px 2px orange;
+ border-radius: 10px;
+ margin-right: 20px;
+}

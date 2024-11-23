@@ -1,0 +1,40 @@
+body {
+  background-image: url(../jpg/orig.jpg);
+  background-size: cover;
+
+}
+.foto img {
+box-shadow: 1px 1px 40px 30px black;
+border-radius:180px;
+border: solid silver 1px;
+animation: lighting 3s infinite;
+box-shadow: 0 0 1px 1px orange;
+
+
+}
+@keyframes lighting {
+  0% {
+    box-shadow: 0 0 1px 2px orange;
+    filter: brightness(1);
+  }
+  50%{
+    box-shadow: 0 0 50px 15px white;
+  filter: brightness(1.5);
+}
+100% {
+  box-shadow: 0 0 1px 2px orange;
+  filter:brightness(1);
+}
+
+}
+
+.welcome {
+  font-size: 40px;
+  font-family: serif;
+  color: white;
+  display: inline-block;
+  text-shadow: 1px 1px 15px orange;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 5px white;
+  background-color: rgba(0, 0, 0, 0.8);
+}

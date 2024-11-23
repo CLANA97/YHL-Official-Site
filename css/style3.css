@@ -1,0 +1,101 @@
+body {
+  background-image: url(../jpg/final1.jpg);
+  background-size: 100%;
+
+
+}
+.title {
+  font-size: 200px;
+  font-family: serif;
+  color: black;
+  letter-spacing: 4px;
+  text-shadow: 1px 1px 15px orange;
+  margin:0 auto;
+  box-shadow: 0px 0px 15px 5px white;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  animation: lighting 2s infinite;
+  text-shadow: 0 0 1px 1px orange;
+  background-color: rgba(0, 0, 0, 0.5);
+
+
+  }
+  @keyframes lighting {
+    0% {
+      text-shadow: 0 0 1px 2px orange;
+      filter: brightness(1);
+    }
+    50%{
+      text-shadow: 0 0 50px 15px white;
+    filter: brightness(1.5);
+  }
+  100% {
+    text-shadow: 0 0 1px 2px orange;
+    filter:brightness(1);
+  }
+}
+
+.container {
+  text-align: center;
+}
+.subtitle, .par2, .par3 {
+  font-family: serif;
+  color: black;
+  text-shadow: 0px 0px 5px orange;
+  margin:0 auto;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+}
+.onico {
+display: inline-flex;
+background-position: center;
+}
+.par2, .par3 {
+  box-shadow: 0px 0px 15px 5px white;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.im1, .foto1, .im3 {
+  border-radius: 50px;
+  box-shadow: 0px 0px 25px 2px orange;
+}
+.news {
+  font-family: serif;
+  color: white;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 5px orange;
+  margin:0 auto;
+  box-shadow: 0px 0px 15px 1px white;
+  border-radius: 30px;
+  text-align: center;
+  text-shadow: 0 0 1px 1px orange;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  font-weight: bold;
+}
+.entry {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 1px 1px 10px orange;
+  box-shadow: 1px 1px 10px 5px white;
+  color: white;
+}
+.contact {
+  text-align: center;
+  text-shadow: 1px 1px 15px orange;
+
+}
+ .menu1, .menu2, .menu3, .menu4 {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 2px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 1px 1px 10px 2px orange;
+  border-radius: 10px;
+  margin-right: 20px;
+
+}

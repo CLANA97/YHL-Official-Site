@@ -1,0 +1,85 @@
+body {
+  background-image: url(../jpg/woman.jpg);
+background-size: cover;
+  background-position: center;
+  display: flex;
+  background-color: black
+
+
+}
+.content{
+  position: relative;
+}
+
+
+.title {
+  font-size: 80px;
+  font-family: serif;
+  color: white;
+  display: inline-block;
+  text-shadow: 1px 1px 15px orange;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 10px 5px white;
+  border-radius: 10px;
+  margin-top: 0 auto;
+}
+.title {
+  animation: lighting 2s infinite;
+  text-shadow: 0 0 1px 1px orange;
+
+
+  }
+  @keyframes lighting {
+    0% {
+      text-shadow: 0 0 1px 2px orange;
+      filter: brightness(1);
+    }
+    50%{
+      text-shadow: 0 0 50px 15px white;
+    filter: brightness(1.5);
+  }
+  100% {
+    text-shadow: 0 0 1px 2px orange;
+    filter:brightness(1);
+  }
+}
+.menu {
+  text-align: right;
+  text-shadow: 1px 1px 15px orange;
+
+}
+ .menu1, .menu2, .menu3, .menu4 {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 2px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 1px 1px 10px 5px white;
+  border-radius: 10px;
+  text-align: right;
+}
+.sub {
+  font-family: serif;
+  color: white;
+  display: inline-block;
+  text-shadow: 1px 1px 5px orange;
+  border-radius: 10px;
+  text-align: left;
+}
+.p {
+  font-size: 15px;
+  color: white;
+  letter-spacing: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+.instagram {
+  font-size: 15px;
+  font-family: serif;
+  color: white;
+  text-shadow: 1px 1px 5px orange;
+
+}
+b, u {
+  color: white;
+    text-shadow: 1px 1px 5px orange;
+}
