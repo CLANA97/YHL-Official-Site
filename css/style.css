@@ -1,6 +1,8 @@
 body {
   background-image: url(../jpg/orig.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
 
 }
 .foto img {
@@ -9,6 +11,7 @@ border-radius:180px;
 border: solid silver 1px;
 animation: lighting 3s infinite;
 box-shadow: 0 0 1px 1px orange;
+width: 100%;
 
 
 }
